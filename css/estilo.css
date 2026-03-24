@@ -1,0 +1,322 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: rgb(48, 48, 233);
+    padding-bottom: 10px;
+}
+
+.divHeader {
+    position: relative;
+}
+
+.logo {
+    width: 8%;
+    margin-left: 10%;
+}
+
+nav {
+    color: white;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    font-size: 38px;
+    font-family: cursive;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav li:hover {
+    color: #00eaff;
+    transform: scale(1.1);
+}
+
+/* ===== BANNER ===== */
+.banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.texto-banner h1 {
+    color: blue;
+    font-size: 18px;
+}
+
+/* ===== TÍTULOS ===== */
+.titulos {
+    text-align: center;
+}
+
+main {
+    background-color: #e5e5e5;
+}
+
+/* ===== SOBRE NÓS ===== */
+.sobre_nos {
+    width: 60%;
+    margin-left: 20%;
+    text-align: justify;
+}
+
+.img_sobre_nos {
+    width: 35%;
+    float: left;
+    margin-right: 20px;
+}
+
+.titulo_sobre_nos {
+    clear: left;
+    text-align: center;
+}
+
+/* ===== MAPA ===== */
+.mapa {
+    text-align: center;
+    width: 100%;
+    padding: 80px 0;
+    margin-top: 40px;
+    background: linear-gradient(#e5e5e5, rgb(109, 171, 230));
+}
+
+.mapa-conteudo {
+    width: 60%;
+    margin: auto;
+}
+
+.mapa h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.mapa p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.mapa iframe {
+    width: 70%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.mapa div {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ===== VÍDEO ===== */
+.video {
+    text-align: center;
+    padding: 60px 0;
+    background-color: rgb(109, 171, 230);
+}
+
+.video-container {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #00eaff, #2a26f7);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.video-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    border: 4px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.video-container iframe:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== NOSSOS PRODUTOS ===== */
+.nossosprodutos {
+    padding: 2%;
+    background-color: rgb(109, 171, 230);
+}
+
+.nossosprodutos h2 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.div_nossosprodutos {
+    width: 70%;
+    margin-left: 30%;
+}
+
+.lista_nossosprodutos li {
+    font-size: 16px;
+    margin: 8px 0;
+    transition: 0.3s;
+}
+
+.lista_nossosprodutos li:hover {
+    color: #ffffff;
+    transform: translateX(5px);
+}
+
+.img_nossosprodutos {
+    width: 20%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px #000000;
+    transition: 400ms;
+}
+
+.img_nossosprodutos:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
+/* ===== ANIMAÇÃO DO CARRO ===== */
+.animacao-carro {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background: #eaeaea;
+}
+
+.animacao-carro i {
+    font-size: 40px;
+    position: absolute;
+    left: -50px;
+    top: 10px;
+    color: #333;
+    animation: dirigir 6s linear infinite;
+}
+
+@keyframes dirigir {
+    0% {
+        left: -60px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+/* ===== ESTRADA ===== */
+.estrada {
+    width: 100%;
+    height: 200px;
+    background: #2c2c2c;
+    position: relative;
+    overflow: hidden;
+    border-top: 3px solid #666;
+    border-bottom: 3px solid #666;
+}
+
+.faixa {
+    width: 200%;
+    height: 5px;
+    background: repeating-linear-gradient(
+        to right,
+        white 0px,
+        white 40px,
+        transparent 40px,
+        transparent 80px
+    );
+    position: absolute;
+    top: 107px;
+    animation: moverFaixa 3s linear infinite;
+}
+
+@keyframes moverFaixa {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-200px);
+    }
+}
+
+/* ===== CARRO ===== */
+.carro {
+    position: absolute;
+    bottom: 30px;
+    left: -150px;
+    animation: carroAndando 3s linear infinite;
+}
+
+.carro img {
+    width: 410px;
+}
+
+@keyframes carroAndando {
+    0% {
+        left: -150px;
+    }
+    100% {
+        left: 110%;
+    }
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+    padding: 30px 10px 10px 0;
+    background: url("../img/fundo-rodape.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    border-top: 3px solid #00eaff;
+}
+
+.rodape-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.rodape-coluna {
+    width: 250px;
+    margin: 10px;
+}
+
+.rodape-coluna h3 {
+    color: #00eaff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.rodape-coluna p {
+    font-size: 14px;
+    color: #ccc;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.rodape-coluna p:hover {
+    color: #00eaff;
+    transform: scale(1.05) translateY(-2px);
+    cursor: pointer;
+}
