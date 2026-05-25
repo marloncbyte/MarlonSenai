@@ -8,7 +8,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
-
     <body>
 
         <header>
@@ -16,10 +15,17 @@
                 <img src="img/logo.jpg" class="logo"/>
 
                 <nav>
+                    <!--Lista de  itens do Menu-->
                     <ul>
-                        <li>Home</li>
-                        <li>Produtos</li>
-                        <li>Contato</li>
+                 <li class="menu-ativo">Home</li>
+
+                 <li>
+                 <a href="telas/produtos.html">Produtos</a>
+                 </li>
+
+                 <li>
+                 <a href="telas/contatos.html">Contato</a>
+                 </li>
                     </ul>
                 </nav>
             </div>
@@ -40,7 +46,8 @@
 </section>
      <main>
             <!--SOBRE NÓS-->
-            <section class="sobre_nos">
+           <!--SOBRE NÓS-->
+        <section class="sobre_nos" id="sobre">
                 <h2 class="titulo_sobre_nos">Sobre Nós</h2>
                 <img src="img/IMG-SOBRENÓS.avif" class="img_sobre_nos"/>
                 <p>A <strong>Zanettini Barossi S.A. Indústria e Comércio</strong> é uma empresa brasileira fundada em 1944, com sede em São Paulo.
@@ -53,10 +60,9 @@
                     <h2 class="titulos">Nosso Estabelecimento</h2>
                     <p>Veja no mapa abaixo como nos encontrar.</p>
                     <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0496993639017!2d-46.59084582466854!3d-23.602550478771537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c7bdc0f8a83%3A0xf0d4cc2d98254de7!2sZanettini%20Barossi%20S%2FA%20Ind%C3%BAstria%20e%20Com%C3%A9rcio!5e0!3m2!1spt-BR!2sbr!4v1772669523685!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0496993639017!2d-46.59084582466854!3d-23.602550478771537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c7bdc0f8a83%3A0xf0d4cc2d98254de7!2sZanettini%20Barossi%20S%2FA%20Ind%C3%BAstria%20e%20Com%C3%A9rcio!5e0!3m2!1spt-BR!2sbr!4v1772669523685!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </section>
-
                 <!--VÍDEO DA EMPRESA-->
     <section class="video">
   <h2 class="titulo_sobre_nos">Conheça nossa empresa</h2>
@@ -67,13 +73,12 @@
     </a>
   </div>
 </section>
-
                 <!--NOSSOS PRODUTOS-->
                 <section class="nossosprodutos">
                 <h2 class="titulo_sobre_nos">Nossos Produtos</h2>
                 <div class="div_nossosprodutos">
                 <ul class="lista_nossosprodutos">
-                <li>Peças para parabrisa</li>
+                <li>Parabrisa</li>
                 <li>Retrovisor</li>
                 <li>Volante</li>
                 <li>Pneus</li>
@@ -83,33 +88,52 @@
          </div>
      </section>
 </main>
-
-<footer>
     <!--RODAPE-->
+<footer>
+
     <div class="rodape-container">
 
         <div class="rodape-coluna">
+
             <h3>Zanettini Barossi</h3>
-            <p>Mais de 80 anos de tradição na indústria automotiva.</p>
+
+            <p>
+            Especialistas em componentes automotivos
+            com mais de 80 anos de tradição industrial.
+            </p>
+
         </div>
 
         <div class="rodape-coluna">
-            <h3>Links</h3>
-            <p>Home</p>
-            <p>Produtos</p>
-            <p>Contato</p>
+
+            <h3>Institucional</h3>
+
+            <p><a href="#sobre">Sobre a Empresa</a></p>
+            <p><a href="telas/produtos.html">Nossos Produtos</a></p>
+            <p><a href="telas/contatos.html">Suporte Corporativo</a></p>
+
         </div>
 
         <div class="rodape-coluna">
-    <h3>Contato</h3>
-    <p><i class="fa fa-map-marker"></i> São Paulo - SP</p>
-    <p><i class="fa fa-phone"></i> (11) 1234-5678</p>
-    <p><i class="fa fa-envelope"></i> contato@zanettini.com.br</p>
-       </div>
+
+            <h3>Atendimento</h3>
+
+            <p><i class="fa fa-map-marker"></i> São Paulo - SP</p>
+
+            <p><i class="fa fa-phone"></i> (11) 1234-5678</p>
+
+            <p><i class="fa fa-envelope"></i> comercial@zanettini.com.br</p>
+
+            <p><i class="fa fa-clock-o"></i> Seg à Sex - 08h às 18h</p>
+
+        </div>
 
     </div>
+
     <p class="copyright">
+
         © 2026 Zanettini Barossi - Todos os direitos reservados
+
     </p>
 
 </footer>

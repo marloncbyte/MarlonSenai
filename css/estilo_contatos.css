@@ -1,0 +1,232 @@
+/* ===== MAIN ===== */
+
+.contato-main{
+
+    padding: 60px 0;
+
+    background: linear-gradient(#e5e5e5, #9fc9ff);
+
+    min-height: 100vh;
+}
+
+/* ===== TÍTULO ===== */
+
+.titulo-contato{
+
+    text-align: center;
+
+    font-size: 42px;
+
+    color: #2a26f7;
+
+    margin-bottom: 10px;
+}
+
+.texto-contato{
+
+    text-align: center;
+
+    font-size: 18px;
+
+    color: #444;
+
+    margin-bottom: 40px;
+}
+
+/* ===== FORM ===== */
+
+form{
+
+    width: 60%;
+
+    margin: auto;
+}
+
+/* ===== FIELDSET ===== */
+
+fieldset{
+
+    border: 3px solid #2a26f7;
+
+    border-radius: 20px;
+
+    padding: 40px;
+
+    background: white;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* ===== LEGEND ===== */
+
+legend{
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    color: #2a26f7;
+
+    padding: 0 15px;
+}
+
+/* ===== LABEL ===== */
+
+label{
+
+    display: block;
+
+    margin-top: 20px;
+
+    margin-bottom: 8px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    color: #333;
+}
+
+/* ===== INPUTS ===== */
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea,
+select{
+
+    width: 100%;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    border: 2px solid #ccc;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+
+    box-sizing: border-box;
+}
+
+/* ===== FOCUS ===== */
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    outline: none;
+
+    border-color: #2a26f7;
+
+    box-shadow: 0 0 10px #00eaff;
+}
+
+/* ===== TEXTAREA ===== */
+
+textarea{
+
+    resize: none;
+}
+
+/* ===== RADIO ===== */
+
+.grupo-radio{
+
+    margin-top: 15px;
+}
+
+.grupo-radio label{
+
+    display: inline-block;
+
+    margin-right: 30px;
+
+    font-weight: normal;
+}
+
+/* ===== TEXTO DOCUMENTO ===== */
+
+.texto-documento{
+
+    margin-top: 8px;
+
+    font-size: 14px;
+
+    color: #666;
+
+    font-style: italic;
+}
+
+/* ===== CHECKBOX ===== */
+
+.checkbox-area{
+
+    margin-top: 25px;
+}
+
+/* ===== CHECKBOX PRODUTOS ===== */
+
+.checkbox-produtos{
+
+    margin-top: 15px;
+}
+
+.checkbox-produtos label{
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-weight: normal;
+}
+
+/* ===== BOTÃO ===== */
+
+.btn-enviar{
+
+    margin-top: 35px;
+
+    width: 100%;
+
+    padding: 18px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: linear-gradient(45deg, #2a26f7, #00bfff);
+
+    color: white;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.4s;
+}
+
+.btn-enviar:hover{
+
+    transform: scale(1.03);
+
+    box-shadow: 0 0 20px #00eaff;
+}
+
+/* ===== RETORNO ===== */
+
+#mensagem-retorno{
+
+    text-align: center;
+
+    margin-top: 30px;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    color: #2a26f7;
+}

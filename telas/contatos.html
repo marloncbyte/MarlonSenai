@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ZANETTINI BAROSSI</title>
+    <!-- CSS -->
+    <link href="../css/estilo.css" rel="stylesheet">
+    <link href="../css/estilo_contatos.css" rel="stylesheet">
+    <!-- ÍCONE -->
+    <link rel="icon" href="../img/iconcar-zb.png" type="image/jpg">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- ICONES -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+
+    <div class="divHeader">
+
+        <img src="../img/logo.jpg" class="logo">
+
+        <nav>
+
+            <ul>
+
+                <li>
+                  <a href="../index.html">Home</a>
+                </li>
+
+                <li>
+                  <a href="produtos.html">Produtos</a>
+                </li>
+
+                <li class="menu-ativo">
+                  Contato
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- MAIN -->
+<main class="contato-main">
+
+    <h1 class="titulo-contato">
+        Entre em Contato
+    </h1>
+
+    <p class="texto-contato">
+        Preencha o formulário abaixo e nossa equipe retornará o mais rápido possível.
+    </p>
+
+    <!-- FORM -->
+<form id="formContato">
+
+    <fieldset>
+
+        <legend>Solicitação de Atendimento</legend>
+
+        <!-- NOME -->
+        <label>Nome do Responsável</label>
+
+        <input type="text"
+        id="nome"
+        placeholder="Digite seu nome completo">
+
+        <!-- EMPRESA -->
+        <label>Nome da Empresa</label>
+
+        <input type="text"
+        id="empresa"
+        placeholder="Digite o nome da empresa">
+
+        <!-- EMAIL -->
+        <label>Email Corporativo</label>
+
+        <input type="email"
+        id="email"
+        placeholder="Digite seu email">
+
+        <!-- TELEFONE -->
+        <label>Telefone</label>
+
+        <input type="tel"
+        id="telefone"
+        placeholder="(11) 99999-9999">
+
+        <!-- CPF/CNPJ -->
+        <label>CPF ou CNPJ</label>
+
+        <input type="text"
+        id="documento"
+        placeholder="Digite o CPF ou CNPJ">
+
+        <p class="texto-documento">
+            Atendemos empresas e parceiros do setor automotivo.
+        </p>
+
+        <!-- RADIO -->
+        <label>Segmento da Empresa</label>
+
+        <div class="grupo-radio">
+
+            <label>
+                <input type="radio" name="empresaTipo">
+                Transportadora
+            </label>
+
+            <label>
+                <input type="radio" name="empresaTipo">
+                Oficina Mecânica
+            </label>
+
+            <label>
+                <input type="radio" name="empresaTipo">
+                Distribuidora
+            </label>
+
+        </div>
+
+        <!-- SELECT -->
+        <label>Produtos de Interesse</label>
+
+        <div class="checkbox-produtos">
+
+        <label>
+        <input type="checkbox">
+        Parabrisa
+        </label>
+
+        <label>
+        <input type="checkbox">
+        Cambio
+        </label>
+
+        <label>
+        <input type="checkbox">
+        Pneu
+        </label>
+
+        <label>
+        <input type="checkbox">
+        Retrovisor
+        </label>
+
+        <label>
+        <input type="checkbox">
+        Volante
+        </label>
+
+        </div>
+
+        <!-- MENSAGEM -->
+        <label>Mensagem</label>
+
+        <textarea
+        id="mensagem"
+        cols="30"
+        rows="10"
+        placeholder="Digite sua mensagem">
+        </textarea>
+
+        <!-- CHECKBOX -->
+        <div class="checkbox-area">
+
+            <label>
+
+                <input type="checkbox">
+
+                Desejo receber novidades e lançamentos
+
+            </label>
+
+        </div>
+
+        <!-- BOTÃO -->
+        <input type="submit"
+        value="Solicitar Atendimento"
+        class="btn-enviar">
+
+    </fieldset>
+
+</form>
+
+<!-- RETORNO -->
+<div id="mensagem-retorno"></div>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="rodape-container">
+
+        <div class="rodape-coluna">
+
+            <h3>Zanettini Barossi</h3>
+
+            <p>
+            Especialistas em componentes automotivos
+            com mais de 80 anos de tradição industrial.
+            </p>
+
+        </div>
+
+        <div class="rodape-coluna">
+
+            <h3>Institucional</h3>
+
+            <p><a href="../index.html">Sobre a Empresa</a></p>
+            <p><a href="produtos.html">Nossos Produtos</a></p>
+            <p><a href="contatos.html">Suporte Corporativo</a></p>
+
+        </div>
+
+        <div class="rodape-coluna">
+
+            <h3>Atendimento</h3>
+
+            <p><i class="fa fa-map-marker"></i> São Paulo - SP</p>
+
+            <p><i class="fa fa-phone"></i> (11) 1234-5678</p>
+
+            <p><i class="fa fa-envelope"></i> comercial@zanettini.com.br</p>
+
+            <p><i class="fa fa-clock-o"></i> Seg à Sex - 08h às 18h</p>
+
+        </div>
+
+    </div>
+
+    <p class="copyright">
+
+        © 2026 Zanettini Barossi - Todos os direitos reservados
+
+    </p>
+
+</footer>
+
+<!-- JS -->
+<script src="../js/form.js"></script>
+
+</body>
+
+</html>
